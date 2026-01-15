@@ -1,14 +1,59 @@
-#personalprofilepage
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Personal profile page
+    </title>
+  </head>
 
-#Description 
-In this project, I designed a Personal Profile Page using HTML.
-The page contains my personal information such as name, education, skills, bio, and contact details.
-I have used semantic tags to make the webpage well-structured, readable, and easy to understand.
+  <body>
+    <h1>PROFILE PAGE</h1>
+    <header>
+      <img src="PROFILE.jpeg" alt="Profile photo" width="150px">
+    <div>
+      <div>
 
-##Technologies used
-HTML
+        <p><strong>NAME       :</strong><br>G.Nandhini</p>
+        <p><strong>EDUCATION      :</strong><br> Pursuing 2nd Year Bachelors degree in Artificial Intelligence and Data Science</p>
+        <p><strong>SKILLS         :</strong><br> Basics of html, time management</p>
+        <p><strong>BIO       :</strong><br> Building skills for high-salary non-coding creative careers through certifications and portfolios.</p>
+       
+    </div>
+</div>
+</header>
 
-##How to run 
-Open index.html in browser
+<hr>
 
-# simplehtmlproject-
+<!--using nav tag to jump from one to another sections in the existing page-->
+
+<nav>
+  <ul>
+    <li><a href="skills.html" target="_self">SKILLS</a></li>
+    <li><a href="education.html" target="_self">EDUCATION</a></li>
+    <li><a href="bio.html" target="_self">BIO</a></li>
+  </ul>
+  <hr>
+  <!--section usinf article for standalone content-->
+  <section id="article">
+    
+  <article><h4>ABOUT ME ARTICLE</h4>
+  <p>I am a motivated learner with a strong interest in technology and design .<br> I enjoy learning new things and improving myself everyday.<br>
+    I am currently Exploring UI/UX design and web development to build creative<br> and user friendly projects.
+  </p></article><hr>
+
+
+  <article><h4>PROFILE PAGE PROJECT ARTICLE</h4>
+  <p>
+    <ol>
+
+       <li>I created this profile page by using all the required semantic tags that have mentioned in the project pdf.</li><li>Each and every tag has some special property to use in the html code.</li><li>I have also mentioned the definition and the uses of the tags by using comment tag for better understanding those who are reading my code.</li><hr>
+    </ol>
+    </p>
+    </article>
+    </section>
+</nav>
+<footer> <p><strong>CONTACT DETAILS :</strong><br> <a href="mailto:nandhini25g@gmail.com">nandhini25g@gmail.com</p></footer>  
+
+
+  </body>
+</html>
